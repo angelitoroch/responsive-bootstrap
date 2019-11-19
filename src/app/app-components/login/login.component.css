@@ -1,0 +1,34 @@
+.contenedor {
+  background: url(../../../assets/img/fondo-login.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.form-signin {
+  margin: auto;
+  margin-top: 150px;
+  padding: 15px;
+  width: 100%;
+  max-width: 330px;
+  border-radius: 5%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #1b2a49;
+  color: aliceblue;
+}
+
+.imagen {
+  height: 125px;
+}
+
+.posicion {
+  margin-top: -80px;
+  margin-bottom: 10px;
+}
+
+.form-signin a {
+  color: white;
+  margin: 10px;
+}
