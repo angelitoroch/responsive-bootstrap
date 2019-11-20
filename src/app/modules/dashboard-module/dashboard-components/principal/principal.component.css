@@ -76,10 +76,14 @@ ul ul a {
 ----------------------------------------------------- */
 #content {
   width: 100%;
-  padding: 20px;
+
   min-height: 100vh;
   transition: all 0.3s;
-  background: #828A95;
+  background: #828a95;
+
+  height: 1px;
+  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 a,
@@ -93,26 +97,26 @@ a:focus {
 /*----------------------------------------------------
 CARD DE SESION
 ----------------------------------------------------*/
-.card{
+.card {
   background: #b71c1c;
 }
 
-.card .img-user{
+.card .img-user {
   width: 100px;
   height: 100px;
   background: black;
 }
 
-.card .card-body > h4{
+.card .card-body > h4 {
   color: #fff;
   font-size: 15px;
 }
 
-.btn{
+.btn {
   background: #1c3144;
 }
 
-.btn:hover{
+.btn:hover {
   color: red;
 }
 
