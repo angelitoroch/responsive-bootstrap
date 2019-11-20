@@ -7,6 +7,9 @@ import { EmpleadosComponent } from "./dashboard-components/empleados/empleados.c
 import { TicketsComponent } from "./dashboard-components/tickets/tickets.component";
 import { ProductosComponent } from "./dashboard-components/productos/productos.component";
 import { ResumenComponent } from './dashboard-components/resumen/resumen.component';
+import { TiendasComponent } from './dashboard-components/tiendas/tiendas.component';
+import { EmpresaComponent } from './dashboard-components/empresa/empresa.component';
+import { AyudaComponent } from './dashboard-components/ayuda/ayuda.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { ResumenComponent } from './dashboard-components/resumen/resumen.compone
     TicketsComponent,
     ProductosComponent,
     ResumenComponent,
+    TiendasComponent,
+    EmpresaComponent,
+    AyudaComponent,
   ],
   imports: [CommonModule, DashboardModuleRoutingModule]
 })

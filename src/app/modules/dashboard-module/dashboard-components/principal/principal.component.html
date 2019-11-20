@@ -20,19 +20,29 @@
     <ul class="list-unstyled components">
       <p class="d-flex justify-content-sm-center">HopSystem</p>
       <li>
-        <a href="#"> <i class="fas fa-home"> </i> Resumen</a>
+        <a [routerLink]="['dashboard']">
+          <i class="fas fa-home"> </i> Resumen</a
+        >
       </li>
       <li>
-        <a href="#"> <i class="fas fa-store-alt"></i> Tiendas</a>
+        <a [routerLink]="['tiendas']">
+          <i class="fas fa-store-alt"></i> Tiendas</a
+        >
       </li>
       <li>
-        <a href="#"> <i class="fas fa-users"></i> Usuarios</a>
+        <a [routerLink]="['empleados']">
+          <i class="fas fa-users"></i> Usuarios</a
+        >
       </li>
       <li>
-        <a href="#"><i class="fas fa-shopping-cart"></i> Productos</a>
+        <a [routerLink]="['productos']"
+          ><i class="fas fa-shopping-cart"></i> Productos</a
+        >
       </li>
       <li>
-        <a href="#"> <i class="fas fa-ticket-alt"></i> Tickets</a>
+        <a [routerLink]="['tickets']">
+          <i class="fas fa-ticket-alt"></i> Tickets</a
+        >
       </li>
       <li>
         <a
@@ -45,10 +55,10 @@
         >
         <ul class="collapse list-unstyled" id="pageSubmenu">
           <li>
-            <a href="#"> <i class="fas fa-building"></i> HOPERS</a>
+            <a [routerLink]="['empresa']"> <i class="fas fa-building"></i> HOPERS</a>
           </li>
           <li>
-            <a href="#"><i class="fas fa-hands-helping"></i> AYUDA</a>
+            <a [routerLink]="['ayuda']"><i class="fas fa-hands-helping"></i> AYUDA</a>
           </li>
         </ul>
       </li>
