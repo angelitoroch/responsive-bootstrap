@@ -2,17 +2,20 @@ import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 
 import { DashboardModuleRoutingModule } from "./dashboard-module-routing.module";
-import { DefaultComponent } from "./dashboard-components/default/default.component";
+import { PrincipalComponent } from "./dashboard-components/principal/principal.component";
 import { EmpleadosComponent } from "./dashboard-components/empleados/empleados.component";
 import { TicketsComponent } from "./dashboard-components/tickets/tickets.component";
 import { ProductosComponent } from "./dashboard-components/productos/productos.component";
+import { ResumenComponent } from './dashboard-components/resumen/resumen.component';
+
 
 @NgModule({
   declarations: [
-    DefaultComponent,
+    PrincipalComponent,
     EmpleadosComponent,
     TicketsComponent,
-    ProductosComponent
+    ProductosComponent,
+    ResumenComponent,
   ],
   imports: [CommonModule, DashboardModuleRoutingModule]
 })

@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { DashboardDefaultComponent } from "./default.component";
+import { navBarComponent } from "./navbar.component";
 
 describe("DashboardDefaultComponent", () => {
-  let component: DashboardDefaultComponent;
-  let fixture: ComponentFixture<DashboardDefaultComponent>;
+  let component: navBarComponent;
+  let fixture: ComponentFixture<navBarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [DashboardDefaultComponent]
+      declarations: [navBarComponent]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DashboardDefaultComponent);
+    fixture = TestBed.createComponent(navBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

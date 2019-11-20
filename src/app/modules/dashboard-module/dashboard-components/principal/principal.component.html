@@ -1,0 +1,62 @@
+<div class="wrapper">
+  <!--Barra lateral-->
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <div class="card border-0">
+        <img
+          class="card-img-top rounded-circle mx-auto img-user border border-dark"
+          src="../../../../../assets/img/avatar.png"
+          alt="Image user"
+        />
+        <div class="card-body d-inline-block">
+          <h4 class="card-title text-center">LUIS ANGEL ABOYTES ROCHA</h4>
+          <a href="#!" class="btn btn-outline-dark btn-block">
+            <i class="fas fa-lock"></i> CERRAR SESION</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <ul class="list-unstyled components">
+      <p class="d-flex justify-content-sm-center">HopSystem</p>
+      <li>
+        <a href="#"> <i class="fas fa-home"> </i> Resumen</a>
+      </li>
+      <li>
+        <a href="#"> <i class="fas fa-store-alt"></i> Tiendas</a>
+      </li>
+      <li>
+        <a href="#"> <i class="fas fa-users"></i> Usuarios</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-shopping-cart"></i> Productos</a>
+      </li>
+      <li>
+        <a href="#"> <i class="fas fa-ticket-alt"></i> Tickets</a>
+      </li>
+      <li>
+        <a
+          href="#pageSubmenu"
+          data-toggle="collapse"
+          aria-expanded="false"
+          class="dropdown-toggle"
+        >
+          <i class="fas fa-question-circle"></i> Contacto</a
+        >
+        <ul class="collapse list-unstyled" id="pageSubmenu">
+          <li>
+            <a href="#"> <i class="fas fa-building"></i> HOPERS</a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-hands-helping"></i> AYUDA</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!--Contenido de la pagina-->
+  <div id="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
